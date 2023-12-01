@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+body {
+    font-family:serif;
+    /* text-align: center; */
+    /* margin: 50px; */
+    /* margin: 60px; */
+    /* background-color: rgb(96, 96, 96); */
+    width: 100%;
+    text-align: justify;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+
+  }
+  .container{
+    /* border: 1px solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0px auto;
+    max-width: 1000px;
+    padding: 20px 50px;
+  }
+  .contact-details{
+    display: flex;
+    
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    padding: 20px;
+    margin: 10px 0px;
+    gap: 102px;
+    width: 100%;
+    
+  }
+  .contact-detail-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .icon{
+    width: 25px;
+    height: auto;
+  }
+  #exp{
+    color: rgb(16, 0, 0);
+    font-weight: bold;
+    font-size: large;
+    /* text-decoration: solid; */
+    
+    
+    /* border: 1px solid red; */
+    /* background-color: black; */
+  }
+  .list-item{
+    color: #04042d;
+    line-height: 25px;
+
+  }
+  .details-heading{
+    color: #00008b89;
+    margin: 12px 0px;
+    font-size: 26px;
+  }
+  .span-list-item{
+    color: rgb(16, 0, 0);
+    font-weight: bold;
+    /* font-size: large; */
+  }
+  .work-exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* border: 1px solid red; */
+     width: 80%;
+   
+  }
+  .company-heading{
+    color: #00008b66;
+    font-size: 18px;
+  }
+  .yealy-exp-heading{
+    margin: 5px 0px;
+    font-size: 16px;
+    margin-right: 95px;
+  }
+  .education-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    color: #00008b66;
+
+
+  }
+  .graduation-year{
+    font-weight: bold;
+    margin-right: 400px;
+    color: rgb(16, 0, 0);
+  }

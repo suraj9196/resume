@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="canva.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>hello worls</h1> -->
+    <!-- Button element with onclick attribute -->
+    <!-- <button id="showMessageButton" onclick="showMessage()">Click me</button> -->
+
+    <!-- Container for displaying the message -->
+    <!-- <div id="messageContainer"></div> -->
+    <!-- <script src="canva.js"></script> -->
+    <div class="container">
+      <div>
+        <h1 class="main-heading">Suraj Singhal</h1>
+        <h2 class="details-heading">Software Developer</h2>
+      </div>
+      <section class="contact-details">
+        <div class="mail contact-detail-item">
+          <img
+            class="icon"
+            src="data:image/png;base64,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"
+            alt="hi"
+            srcset=""
+          />
+          <p>surajsinghal9196@gmail.com</p>
+        </div>
+        <div class="phone contact-detail-item">
+          <img
+            class="icon"
+            src="data:image/png;base64,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"
+            alt="hi"
+            srcset=""
+          />
+          <p>+91 &nbsp; 8358993596</p>
+        </div>
+        <div class="linkedin contact-detail-item">
+          <img
+            class="icon"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAbFBMVEUKZsL///8Va8QAYsEAZMFejdAAWr74+v0gbsW5xubq8PgAYMD0+f14nNU5dMYAXb8AVr2iueGAodfd5vTI1u3S3/EAUbytwOQ6fMpHf8pnj9BZiM4ATruYtN8mdMeDptm9z+q0yumQrt1MesihHFFQAAADcUlEQVRoge2b25aqMAyGCy2VTWEXStFBxMPs93/HXUQUWnAmDLQXw3/lMi4/6IkkJMgbUyQPIvgI/UUUfgTiIKNREDK/yrOSMM4wWUxY/R0ps/wbeHkkFBO0uAim5Ci/wBfVKuznFVTFG3wsTngtdit8EvEUXvp8XXgj7stxfM1WG/a+CKvH8CK1Qlf8VJh4kdqBN3rxkQN6j//A19QmHSFa9/HSzqp7iTD5wu+QZbrio90TnzDbdIRY0uGLvX06QvvigQ9WPmnHhYMWLy2v+k5U3vFHJzevbv/Y4HNifdm3IiRX+MzR2KvRzxS+dDT2avRLD0XreTdfieAISQsuxpS4RNkbPOEpxWm62gOBZ0hMH7g8vBRRFF0TtNKhzASaPPIIT7rQIK/WmSEcoPOUTW2Ll8Q6u3MSjtKeQ6h0tLtCSbkb4CO7LkF684a6WPUJ0p2Gt+oUkFKjezubk3/3BYb40OLk48rA21x7JNTxsdU45KQnQ25W3QImNHxl1S0grHB48+r2y/7wF75tp4T3+IVv3yNjNGvzMNHFVuZhIMJ5KerkTB2EgK0w57Zj702/XUZa+huWp/Xn9FBX95/E1wzPA5EwzjlW3/Dmw092TBN7awofJnrVDJfWD8KpL275w0eLilsSprOPyjFvp8P/0SyiwWNaGcn6IqEzLwCKp6UBb5QHfNYUAPF0mKXvKZvFh+G1iGig6xwnDYTfH6bpij8jQIDgk8s7uro8+AMTgq+n5v2hGO4pQfBf6gD2ExfFx+AAaVG89wmND5fFF9DRXxYf/wWO/ix8rjRuSYBnPxgfZ+fTXul0LEasNXDyofir353tjH+aZgk8eYF42YtDCDWfANFpTbyWlt6blQrAcx+GvwynlpnDD3T/QPhIO9VIqKfFPODOA+GNhWWOfrki3ngBnBqeFzA3AsIbSXFq+B9r4v/pI2tufeCbShDeWFfM8H9WxJsPlPb18Ibf8Bt+w2/4Db/hN/yG3/Ab/pfixyt3LOHPE0VTdvA4mCgZw1WkKe9yCPygWww8TmLtN+MRLhOTBXNM19NCNMNIvaH+k4mUOs9clws6LpZ0XCrqulDWcZmw4yJp1yXijgvkXbcHOG6OcN0a4rgxxnVbkOumKNctYa4b4ly3A7puhnTdCuo5boS9z4DLNuBGTpug77LWAv4fB3VGAK++1QwAAAAASUVORK5CYII="
+            alt="hi"
+            srcset=""
+          />
+          <p>https://www.linkedin.com/in/suraj-singhal-805366189/</p>
+        </div>
+      </section>
+      <section class="2">
+        <h2 class="details-heading">Professional Summary</h2>
+        <div>
+          <ul class="list-item">
+            <li>
+              Over <span id="exp">2+ years</span> of professional experience as
+              a Java Developer, specializing in Java-based application
+              development.
+            </li>
+            <li>
+              Proficient in the Spring Framework, Hibernate, Spring Boot, and
+              Data JPA, with a strong understanding of software architecture and
+              design patterns.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="3">
+        <h2 class="details-heading">Experience</h2>
+        <div class="work-exp">
+          <h4 class="company-heading">Qloron Pvt Ltd. (Software Developer)</h4>
+          <h5 class="yealy-exp-heading">May 2023 -- July 2023</h5>
+        </div>
+        <ul class="list-item">
+          <li>
+            Developed robust back-end functionalities using Java in an agile
+            environment; implemented an automated testing framework that
+            increased code coverage by 25% and reduced production bugs by 40%
+          </li>
+          <li>
+            Hands-on coding and development using Java, spring, and Spring Boot
+            framework
+          </li>
+        </ul>
+        <div class="work-exp">
+          <h4 class="company-heading">
+            Inquipo Technologies (Associate Software Engineer)
+          </h4>
+          <h5 class="yealy-exp-heading">May 2021 -- April 2023</h5>
+        </div>
+        <ul class="list-item">
+          <li>
+            Designed and developed Microservices-based applications, enhancing
+            system performance and scalability using Spring Boot and Spring Data
+            JPA.
+          </li>
+          <li>
+            Created and maintained RESTful APIs for various modules, improving
+            data access and retrieval efficiency.
+          </li>
+          <l1
+            >Optimized database schemas in MySQL, resulting in faster data
+            storage and retrieval times.</l1
+          >
+          <l1
+            >Conducted comprehensive testing of APIs using Postman, ensuring
+            functionality, performance, and security.
+          </l1>
+          <l1
+            >Implemented version control and collaborative development practices
+            using Git, contributing to streamlined code management.
+          </l1>
+          <l1
+            >Strengthened application security by integrating Spring Security
+            features, preventing unauthorized access and data breaches.
+          </l1>
+        </ul>
+      </section>
+      <setion class="4">
+        <h2 class="details-heading">Education</h2>
+        <div class="education-style">
+          <h3>Post-Graduation: MCA</h3>
+          <p class="graduation-year">2018 - 2021</p>
+        </div>
+        <p>National Institute of Technology(NIT), Warangal</p>
+        <div class="education-style">
+          <h3>Graduation: BCA</h3>
+          <p class="graduation-year">2015 - 2018</p>
+        </div>
+        <p>Apex Institute, Morena(M.P.)</p>
+      </setion>
+      <section class="5">
+        <h2 class="details-heading">Skills</h2>
+        <div>
+          <ul class="list-item">
+            <li>
+              <span class="span-list-item">Programming -:</span>
+              Java, Spring, Spring Boot
+            </li>
+            <li>
+              <span class="span-list-item">ORM TOOLS -:</span>
+              JDBC, Hibernate, Data JPA
+            </li>
+            <li>
+              <span class="span-list-item">Web Development -:</span>
+              HTML, CSS, JavaScript
+            </li>
+
+            <li>
+              <span class="span-list-item">Build Tool -:</span>
+              Maven
+            </li>
+            <li>
+              <span class="span-list-item">Databases -:</span>
+              SQL, MYSQL
+            </li>
+            <li>
+              <span class="span-list-item">API testing Tools -:</span>
+              Postman
+            </li>
+            <li>
+              <span class="span-list-item">Tools/IDEs -:</span>
+              Eclipse, Spring Tool Suite, IntelliJ
+            </li>
+            <li>
+              <span class="span-list-item">Container -:</span>
+              Tomcat, Jetty, H2
+            </li>
+            <li>
+              <span class="span-list-item">Distributed version control -:</span>
+              Git
+            </li>
+            <li>
+              <span class="span-list-item">Code Coverage Testing -:</span>
+              Junit and Mockito
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="5">
+        <h2 class="details-heading">Projects</h2>
+        <div class="project1">
+          <p>Project 1:- Infosec Awareness</p>
+          <p>Organization: Qloron pvt ltd</p>
+          <p>
+            Environment: Java, spring, Data JPA, Oracle DB, Html, CSS,
+            javascript
+          </p>
+          <p>
+            Description: Infosec is an internal application that contains videos
+            and policies of the organization. It is used by vendor parties and
+            clients.
+          </p>
+        </div>
+        <div class="project2">
+          <p>Project 2:- RecRuto (Recruitment Automation)</p>
+          <p>Organization: : Inquipo technologies</p>
+          <p>
+            Environment: Java, spring, spring boot , micro-services(API
+            Gateway), hibernate, data jpa, MySQL HTML, CSS, Javascript, and
+            React.
+          </p>
+          <p>
+            Description: RecRuto is a complete end-to-end automation tool and
+            Centre of Excellence for the recruitment process. The work is not
+            only beyond tracking but also to deployment of resources. It is an
+            enterprise-strength in features, scalability, and flexibility for
+            recruitment services of any size.
+          </p>
+        </div>
+      </section>
+      <section class="6">
+        <h2 class="details-heading">ROLES AND RESPONSIBILITIES:--</h2>
+        <div>
+          <ul class="list-item">
+            <li>
+              <span class="span-list-item">Software Development:</span> Develop,
+              maintain, and enhance Java-based backend applications, ensuring
+              high performance, security, and scalability.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+            <li>
+              <span class="span-list-item">Database Management:</span> Designed
+              and prepared database schemas, created efficient SQL queries, and
+              optimized database performance.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
